@@ -1,0 +1,66 @@
+<html>
+    <head> 
+<script>
+function add()
+{
+    var a, b, c;
+    var i, j, k;
+    var p, q, r;
+    var x, y, z;
+
+    a= Number(document.getElementById("first").value);
+    b= Number(document.getElementById("second").value);
+    i= Number(document.getElementById("third").value);
+    j= Number(document.getElementById("fourth").value);
+    p= Number(document.getElementById("fifth").value);
+    q= Number(document.getElementById("sixth").value);
+    x= Number(document.getElementById("seventh").value);
+    y= Number(document.getElementById("eight").value);
+
+    c=a+b;
+    k=i-j;
+    r=p*q;
+    z=x/y;
+
+     document.getElementById("answer").value=c;
+     document.getElementById("ashwini").value=k;
+     document.getElementById("multiplication").value=r;
+     document.getElementById("divi").value=z;
+}
+
+</script>
+
+    </head>
+<body style="background-color: rgb(0, 0, 0);">
+
+    <div style="background-color: rgb(190, 190, 255); width: 50%; padding-bottom: 1cm; border: 2px solid chartreuse;
+     text-align: center; margin-top: 2cm; margin-left: 7cm; padding-top: 2px">
+
+    <b> <h2> Basic Calculator</h2> </b>
+    
+    <input id="first">
+<b style="font-size: 150%;">+ </b> <input id="second">
+<button onclick="add()"> =</button> <input id="answer"> <br>
+<br>
+
+<input id="third">
+<b style="font-size: 150%;"> - </b> <input id="fourth">
+<button onclick="add()"> =</button> <input id="ashwini"> <br>
+<br>
+
+<input id="fifth">
+<b style="font-size: 150%;">* </b> <input id="sixth">
+<button onclick="add()"> =</button> <input id="multiplication"> <br>
+<br>
+
+<input id="seventh">
+<b style="font-size: 150%;"> / </b> <input id="eight">
+<button onclick="add()"> =</button> <input id="divi"> <br>
+<br>
+
+
+    </div>
+
+</body>
+
+</html>
